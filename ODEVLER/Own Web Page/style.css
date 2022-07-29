@@ -1,0 +1,129 @@
+
+.navbar {
+    background-color:darkgray;
+    height: 70px;
+}
+
+.navbar li a:hover {
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.navbar li a {
+   color: darkslategray;
+}
+
+.navbar-nav {
+    font-size: 18px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.d-flex {
+    margin-right: 30px;
+}
+
+.banner {
+    background-image: url(Img/banner.jpg);
+    height: 400px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.efso {
+    width: 200px;
+    height: 200px;
+}
+
+.imgMainDiv {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.imgResDiv {
+    flex: 25%;
+}
+
+.imgDiv {
+    border: 1px solid silver;
+    border-radius: 30px;
+    margin: 20px 0px;
+}
+
+.imgDiv img {
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;   
+}
+
+.imgDiv h3 {
+    text-align: center;
+    color: darkslategray;
+    margin: 30px 0;
+}
+
+.imgDiv p {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.imgDiv .pricePurchaseDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.imgDiv .price {
+    color: darkslategray;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.imgDiv .purchase {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color:burlywood;
+    color: black;
+    width: 100px;
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 120px;
+    color: white;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.footerList {
+    list-style-type: none;
+}
+
+.footerList a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footerList a:hover {
+    color:silver;
+}
+
+.footerList li {
+    display: inline;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+@media screen and (min-width: 480px) {
+    .footerList {
+        text-align: center;
+    }
+  }
